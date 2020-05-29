@@ -1,0 +1,464 @@
+/* 最小的宽度和高度 防止 缩放过于变形 */
+html, body, .section {
+	min-height: 600px;
+	min-width: 1300px;
+}
+/* 设置导航按钮颜色 */
+#fp-nav ul li a span { /* 提高层叠性 */
+	background: dimgrey;
+}
+.next {
+	position: fixed;
+	bottom: 10%;
+	right: 10%;
+	z-index: 999;
+}
+/*设置页面背景样式*/
+/* 第一模块制作开始 */
+.section1 {
+	background: #fadd67 url(../images/Bj1.png) no-repeat   center top ;
+	background-size: cover; 
+    
+}
+.ballon_fly {
+	position: absolute;
+	right: 30%;
+	top: 5%;
+
+}
+.by_man {
+	position: absolute;
+	height: 55%;
+    bottom: 20%;
+	left : 0%;
+	margin-left: -35%;
+
+}
+.by_man1 {
+	position: absolute;
+	height: 55%;
+    bottom: 20%;
+	left : 50%;
+	margin-left: -35%;
+    display: none; 
+    z-index: 2;
+}
+.text01 {
+	position: absolute;
+	height: 25%;
+	top : 5%;
+	left: 8%;
+	opacity: 0;
+}
+/* 第一模块制作结束 */
+/* 第二模块制作开始 */
+
+.section2 {
+	background: #fadd67 url(../images/Bj2.png) no-repeat   center bottom; 
+
+}
+.work1 {
+	position: absolute;
+    left: 50%;
+    margin-left: -13%;
+    bottom: 55%;
+}
+.work2 {
+	position: absolute;
+    left: 50%;
+    margin-left: -25%;
+    bottom: 35%;
+    height: 18%;
+}
+.work3 {
+	position: absolute;
+    right: 50%;
+    margin-right: -16%;
+    bottom: 40%;
+    transform: rotateY(180deg);
+}
+.work4 {
+	position: absolute;
+    left: 50%;
+    margin-left: -13%;
+    bottom: 18%;
+    height: 12%;
+}
+.text02 {
+    position: absolute;
+    height: 32%;
+    top: -5%;
+    left: 0%;
+	opacity: 0;
+
+}
+/* 第三模块制作开始 */
+
+.section3 {
+	background: #fadd67 url(../images/Bj3.png) no-repeat   center bottom ;
+	background-size: cover; 
+}
+.section3_dv1{
+	position: absolute;
+	 /*background: rgba(00,00,00,0.3);*/ 
+	width: 50%;
+    height: 70%;
+    right: 50%;
+    margin-right: -16%;
+    bottom: 0%;
+
+}
+.bubble {
+	position: absolute;
+	right: 50%;
+	opacity: 0;
+}
+/* 第一组气泡 */
+.b_bubble_1 {
+    width: 20%;
+    margin-right: 15%;
+    bottom: 50%;
+}
+.m_bubble_1 {
+    width: 8%;
+    margin-right: 8%;
+    bottom: 46%;
+}
+.s_bubble_1 {
+    width: 4%;
+    margin-right: 4%;
+    bottom: 44%;;
+}
+/* 第二组气泡 */
+.b_bubble_2 {
+    width: 20%;
+    margin-right: 6%;
+    bottom: 70%;
+}
+.m_bubble_2 {
+    width: 8%;
+    margin-right: 5%;
+    bottom: 61%;
+}
+.s_bubble_2 {
+    width: 4%;
+    margin-right: 2%;
+    bottom: 55%;
+}
+/* 第三组气泡 */
+.b_bubble_3 {
+    width: 20%;
+    margin-right: -33%;
+    bottom: 70%;
+}
+.m_bubble_3 {
+    width: 8%;
+    margin-right: -18%;
+    bottom: 61%;
+}
+.s_bubble_3 {
+    width: 4%;
+    margin-right: -12%;
+    bottom: 55%;
+}
+/* 第四组气泡 */
+.b_bubble_4 {
+    width: 20%;
+    margin-right: -38%;
+    bottom: 50%;
+}
+.m_bubble_4 {
+    width: 8%;
+    margin-right: -22%;
+    bottom: 46%;
+}
+.s_bubble_4 {
+    width: 4%;
+    margin-right: -13%;
+    bottom: 44%;
+}
+.wh {
+    margin-right: -12%;
+    bottom: 44%;
+    height: 15%;
+}
+/* 第三模块制作结束 */
+/* 第四模块制作开始 */
+.section4 {
+	background: #ef674d url() no-repeat   center top ;
+	background-size: cover; 
+	overflow: hidden;
+	perspective: 1000;
+	-webkit-perspective: 1000;/*兼容*/
+}
+.mouse {
+	position: absolute;
+    right: 20%;
+    bottom: 28%;
+    height: 115%;
+}
+.mouse-05-a {
+	opacity: 0;
+}
+.hand-05 {
+	position: absolute;
+	right: 24%;
+    bottom: -60%;
+	height: 52%;
+}
+.g_div {
+	position: absolute;
+    height: 35%;
+    width: 18%;
+    overflow: hidden;
+    left: 20%;
+    bottom: 40%;
+}
+.commpany {
+	position: absolute;
+	height: 100%;
+	width: 500%;
+    right: -395%;
+}
+.succeed {
+	position: absolute;
+	left: 22%;
+    bottom: 5%;
+	opacity: 0;
+	height: 60%;
+}
+.text03 {
+	position: absolute;
+    left: 30%;
+    top: 10%;
+}
+/* 第四模块制作结束 */
+/* 第五模块制作开始 */
+
+.section5 {
+	background: #fadd67 url(../images/Bj5.png) no-repeat   center top ;
+	background-size: cover; 
+}
+.section5_dv1 {
+	position: absolute;
+    width: 45%;
+    height: 42%;
+    /*background: rgba(00,00,00,0.3);*/
+    right: 50%;
+    margin-right: -22%;
+    bottom: 32%;
+}
+.tx-5{
+	position: absolute;
+	padding: 3%;
+	height: 23%;
+	opacity: 0;
+}
+.qp01-5, .qp02-5, .qp03-5{
+	height: 30%;
+	opacity: 0;
+}
+.qpdiv {
+    position: absolute;
+    height: 100%;
+    left: 15%;
+    top: 5%;  
+}
+.final_05 {
+	position: absolute;
+    width: 25%;
+    right: 10%;
+    bottom: 10%;
+    opacity: 0;
+}
+
+/* 第五模块制作结束 */
+/* 第六模块制作开始 */
+.section6 {
+	background: #d7d7e1 url(../images/Bj6.jpg)  no-repeat center bottom ;
+	background-size: 50%;
+	perspective: 1000;
+	-webkit-perspective: 1000;/*兼容*/
+}
+.text-06-1 , .text-06-2 {
+    position: absolute;
+    height: 7%;
+}
+.text-06-1 {
+	bottom: 85%;
+	left: 10%;
+	margin-left: -80%;
+}
+.text-06-2 {
+	bottom: 70%;
+	right: 10%;
+	margin-right: -80%;
+}
+/* 第六模块制作结束 */
+/* 第七模块制作开始 */
+.section7 {
+	background: #fadd67 url(../images/Bj7.jpg) no-repeat   center top ;
+	background-size: cover; 
+}
+.jl-07 {
+	position: absolute;
+    height: 93%;
+    left: 18%;
+    top: 5%;
+}
+/* 第七模块制作结束 */
+/* 第八模块制作开始 */
+.section8 {
+	background: #fadd67 url(../images/Bj8.png);
+}
+.contact {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom:45%;
+}
+.button-08-a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.again {
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	margin-left: 20%;
+	cursor: pointer;
+}
+.hand-08 {
+	position: absolute;
+	bottom: 0;
+	left: 45%;
+}
+/* 第八模块制作结束 */
+/* 动画部分 */
+/* 第一页 */
+.fly {
+  animation: ballon 3s linear infinite;
+}
+/* 声明动画 */
+.next_undown {
+	   animation: next .6s linear infinite ;  /*  linear 匀速 */
+
+}
+@keyframes next {  /* 类似于js 的声明函数 function */
+	
+	50% {
+
+	  bottom: 15%;
+	}
+	100% {
+      bottom: 10%;
+	}
+ }
+@keyframes ballon {
+	0%{
+       top :5%;
+	}
+	50%{
+       top :15%;
+	}
+	100%{
+       top :5%;
+	}
+}
+ .hd {
+   animation: hdw 1s linear infinite;
+}
+@keyframes hdw {
+	0%{
+       transform: rotateZ(10deg);
+	}
+	50%{
+       transform: rotateZ(-10deg);
+	}
+	100%{
+       transform: rotateZ(10deg);
+	}
+}  
+/* 第二页 */
+.man1 {
+    animation: jc_man 1s linear infinite;
+}
+@keyframes jc_man {
+	0%{
+       bottom: 55%;
+	}
+	50%{
+       bottom: 50%;
+	}
+	100%{
+       bottom: 55%;
+	}
+}
+.man2 {
+    animation: cs_man 1s linear infinite;
+}
+@keyframes cs_man {
+	0%{
+       transform: rotateZ(10deg);
+	}
+	50%{
+       transform: rotateZ(-10deg);
+	}
+	100%{
+       transform: rotateZ(10deg);
+
+	}
+}  
+.man3 {
+    animation: xs_man 3s linear infinite;
+}
+@keyframes xs_man {
+	0%{
+       transform: rotateY(0deg);
+	}
+	50%{
+       transform: rotateY(180deg);
+	}
+	100%{
+       transform: rotateY(0deg);
+
+	}
+}  
+.man4 {
+    animation: sj_man 3s linear infinite;
+}
+@keyframes sj_man {
+	0%{
+       bottom: 18%;
+	}
+	50%{
+       bottom: 16%;
+	}
+	100%{
+       bottom: 18%;
+
+	}
+}  
+/* 第四页 */
+.text03-a {
+	animation: text 3s forwards;
+	/* animation-fill-mode: forwards;  让我们的动画保持最后一帧状态 不循环 */
+}
+@keyframes text {
+	100% {
+		opacity: 1;
+		transform: translateZ(100px) rotateY(360deg);
+	}
+}
+/* .text06-a {
+	animation: text06 1s forwards;
+	/* animation-fill-mode: forwards;  让我们的动画保持最后一帧状态 不循环 */
+}
+@keyframes text06 {
+	100% {
+		opacity: 1;
+		transform: rotatex(360deg);
+	}
+} */
